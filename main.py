@@ -1,5 +1,5 @@
 # Create a welcome message.
-# Input: a name as a string
+# Input: your name as a string
 # Result: a string
 def welcome_message(name:str) -> str:
    message = "Hello, " + name + "."
@@ -7,5 +7,5 @@ def welcome_message(name:str) -> str:
    return message
 
 
-message = welcome_message("anrathi@calpoly.edu")
+message = welcome_message("asshroff@calpoly.edu")
 print(message)
